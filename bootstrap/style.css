@@ -1,0 +1,44 @@
+html { 
+	/*koko sivun tausta on valkoinen.
+	Muuta haluamaksesi*/
+	background: #191970; 
+
+	/*Jos määrität html-tagissa fontteja, 
+	taustavärejä tai tekstin värejä,
+	samat määritykset tulevat kaikkiin sisällä oleviin
+	elementteihin. Näin voit määrittää esim. koko sivun 
+	fontit, värit ym. ja sitten muuttaa haluamissasi
+	elementeissä tyylin toiseksi.*/
+
+
+}
+body { 
+	
+	/*Kaiken sisällön ympärillä on body. 
+	Voit muuttaa myös bodyn taustaväriä tai
+	esim. lisätä paddingin, jotta elementit eivät 
+	olisi reunassa kiinni.*/
+	
+	/*Tällä koodilla voit tehdä niin, että yli 900px
+	leveässä näytössä body-tagi jää vain 900px leveäksi,
+	ja reunoille jää tyhjää. Voit muuttaa tätä miten haluat.*/
+	max-width: 900px;
+	margin: auto; /*tämä keskittää body-tagin sivusuunnassa*/
+	background-color: #FFFADE;
+	padding: 20px;
+
+}
+label {
+	font-family: sans-serif;
+	font-size: xx-small;
+}
+nav {
+	font-family: sans-serif;
+	font-size: small;
+}
+ul {
+	font-family: impact;
+}
+p {
+	font-family: sans-serif;
+}
