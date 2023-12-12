@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Bootstrap demo</title>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+		<link rel="stylesheet" href="style.css">
+
+	</head>
+	
+	<body>
+	
+	<header>
+	
+		<div class="container text-center">
+			<nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+				<a class="me-3 py-2 text-dark text-decoration-none" href="#">Ominaisuudet</a>
+				<a class="me-3 py-2 text-dark text-decoration-none" href="#">Yrittäjyys</a>
+				<a class="me-3 py-2 text-dark text-decoration-none" href="#">Tuki</a>
+				<a class="py-2 text-dark text-decoration-none" href="#">Kaverit</a>
+			</nav>
+		</div>
+		<div class="container text-center">
+			<div class="row">
+				<div class="col-md-12">
+					<h1 class="fw-bold mb-0">Finnship</h1>
+						<p>Ystävyyden voimalla!</p>
+						<p>
+							<a href="#" class="btn btn-primary my-2">Liity nyt!</a>
+							<a href="#" class="btn btn-secondary my-2">Älä liity!</a>
+						</p>
+				</div>
+			</div>
+		</div>
+		
+	</header>
+	
+	<main>
+
+		<div class="row row-cols-1 row-cols-md-3 mb-3 text-center mx-auto">
+			<div class="col">
+				<div class="card mb-6 rounded-3 shadow-sm">
+					<div class="card-header py-3">
+						<h4 class="fw-bold mb-0">Ilmane</h4>
+					</div>
+					<div class="card-body">
+						<h1 class="card-title pricing-card-title">0€<small class="text-muted fw-light">/kk</small></h1>
+						<ul class="list-unstyled mt-3 mb-4">
+							<li>10 taattua kaveria</li>
+							<li>2 GB tilaa</li>
+							<li>Sähköpostituki</li>
+							<li>Tuki</li>
+						</ul>
+						<button type="button" class="w-100 btn btn-lg btn-outline-primary fw-bold mb-0">Liity ilmaiseksi</button>
+					</div>
+				</div>
+			</div>
+			<div class="col">
+				<div class="card mb-6 rounded-3 shadow-sm">
+					<div class="card-header py-3">
+						<h4 class="fw-bold mb-0">Pro</h4>
+					</div>
+					<div class="card-body">
+						<h1 class="card-title pricing-card-title">$15<small class="text-muted fw-light">/mo</small></h1>
+						<ul class="list-unstyled mt-3 mb-4">
+							<li>20 taattua kaveria</li>
+							<li>10 GB tilaa</li>
+							<li>VIP-tarra</li>
+							<li>Mahdollisuus rekrytointiin</li>
+						</ul>
+						<button type="button" class="w-100 btn btn-lg btn-primary fw-bold mb-0">Get started</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-4 text-center">
+				<figure>
+					<img src="1.jpg">
+				</figure>
+			</div>
+			<div class="col-md-8">
+				<h2 class="fw-bold mb-0 pb-2 border-bottom">Kirjaudu sisään</h2>
+				<form action="">
+					<div class="form-group">
+						<label>Sähköposti</label>
+						<input type="email" class="form-control" placeholder="Enter Your Email">
+					</div>
+					<div class="form-group">
+						<label>Salasana</label>
+						<input type="password" class="form-control" placeholder="Enter Password">
+					</div>
+					<div class="form-group form-check">
+						<input type="checkbox" class="form-check-input" id="checkbox">
+						<label for="checkbox" class="form-check-label">Muista minut</label>
+					</div>
+					<button type="submit" class="btn btn-primary">Lähetä</button>
+				</form>
+			</div>
+		</div>	
+			
+		<div class="container px-4 py-5" id="icon-grid">
+			<h2 class="pb-2 border-bottom">Syitä liittyä meihin, englanniksi.</h2>
+
+			<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+				<div class="col d-flex align-items-start">
+					<svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#bootstrap"></use></svg>
+					<div>
+						<h4 class="fw-bold mb-0">Happiness</h4>
+							<p>Share your happiness with new people in exchange of even more happiness.</p>
+					</div>
+				</div>
+			<div class="col d-flex align-items-start">
+				<svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#cpu-fill"></use></svg>
+				<div>
+					<h4 class="fw-bold mb-0">Memories</h4>
+					<p>Create memorable memories with new, memorable people.</p>
+				</div>
+			</div>
+			<div class="col d-flex align-items-start">
+				<svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#calendar3"></use></svg>
+				<div>
+					<h4 class="fw-bold mb-0">Experiences</h4>
+					<p>Sensational experiences yet to be experienced.</p>
+				</div>
+			</div>
+				<div class="col d-flex align-items-start">
+					<svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#home"></use></svg>
+					<div>
+						<h4 class="fw-bold mb-0">New friends</h4>
+						<p>You've gotten tired of the old ones.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	<div class="row">
+		<div class="col-md-2">
+			<object data="business.svg" width="150" height="150"> </object>
+		</div>
+		<div class="col-md-2">
+			<object data="golf.svg" width="150" height="150"> </object>
+		</div>
+		<div class="col-md-2">
+			<object data="loveintheair.svg" width="150" height="150"> </object>
+		</div>
+		<div class="col-md-2">
+			<object data="electrici.svg" width="150" height="150"> </object>
+		</div>
+		<div class="col-md-2">
+			<object data="mindfulness.svg" width="150" height="150"> </object>
+		</div>
+		<div class="col-md-2">
+			<object data="travel.svg" width="150" height="150"> </object>
+		</div>
+	</div>
+
+	</main>
+	
+		
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+		
+	</body>
+
+</html>
