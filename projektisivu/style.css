@@ -5,16 +5,6 @@ header {
 }
 
 header h1 { 
-	/*Pääotsikko*/
-
-	/*Täällä kannattaa muokata background-, color- 
-	font-size- ja font-family-arvoja.*/
-
-	/*Laita myös ja marginaalit paddingit paremmin, 
-	niin näyttää tyylikkäämmältä */
-
-	/*Voit halutessasi myös esim. keskittää otsikon (text-align: center;)*/
-
 	font-size: 40px;
 	font-family: 'Oswald', sans-serif;
 	text-align: center;
@@ -74,15 +64,6 @@ main h3 {
 }
 
 body {
-	
-	/*Kaiken sisällön ympärillä on body. 
-	Voit muuttaa myös bodyn taustaväriä tai
-	esim. lisätä paddingin, jotta elementit eivät 
-	olisi reunassa kiinni.*/
-	
-	/*Tällä koodilla voit tehdä niin, että yli 900px
-	leveässä näytössä body-tagi jää vain 900px leveäksi,
-	ja reunoille jää tyhjää. Voit muuttaa tätä miten haluat.*/
 	max-width: 900px;
 	margin: auto;
 	background-color: #ffffff;
